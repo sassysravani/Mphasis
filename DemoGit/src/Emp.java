@@ -14,5 +14,10 @@ public int getEid() {
 public void setEid(int eid) {
 	this.eid = eid;
 }
+public Emp(String name, int eid) {
+	super();
+	this.name = name;
+	this.eid = eid;
+}
 
 }
